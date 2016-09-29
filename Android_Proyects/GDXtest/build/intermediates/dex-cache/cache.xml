@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/osocron/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.9.3/c45573bf68b55442990936f007e7d6823d259c1f/gdx-backend-android-1.9.3.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c45573bf68b55442990936f007e7d6823d259c1f">
+        <dex dex="/home/osocron/IdeaProjects/GDXtest/android/build/intermediates/pre-dexed/debug/gdx-backend-android-1.9.3_5ac24db26060a05bd695fba2a539d0968d0cd1ce.jar" />
+    </item>
+    <item
+        jar="/home/osocron/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-box2d/1.9.3/924800875b5ce70081021240a1301b60993b62e6/gdx-box2d-1.9.3.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="924800875b5ce70081021240a1301b60993b62e6">
+        <dex dex="/home/osocron/IdeaProjects/GDXtest/android/build/intermediates/pre-dexed/debug/gdx-box2d-1.9.3_ab3bb06e0e406ab37269e16dd38d81cec613369d.jar" />
+    </item>
+    <item
+        jar="/home/osocron/IdeaProjects/GDXtest/core/build/libs/core-1.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1af15362cf0761b301b9d27cf6d580504e9ab119">
+        <dex dex="/home/osocron/IdeaProjects/GDXtest/android/build/intermediates/pre-dexed/debug/core-1.0_34be336796996584c71cb604fff23b39353f65d0.jar" />
+    </item>
+    <item
+        jar="/home/osocron/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/1a3775429980a6c8da0cdefb656ad1dabf91d629/gdx-1.9.3.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1a3775429980a6c8da0cdefb656ad1dabf91d629">
+        <dex dex="/home/osocron/IdeaProjects/GDXtest/android/build/intermediates/pre-dexed/debug/gdx-1.9.3_fd8a5be433398ab1a0395d2958283be4448d443e.jar" />
+    </item>
+
+</items>

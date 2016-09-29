@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+        <entity class="Modelo.CatalogoArticulosEntity">
+                <table name="CatalogoArticulos" schema="" catalog="ArticulosSiscomp"/>
+                <attributes>
+                        <id name="claArti">
+                                <column name="CLA_ARTI" nullable="false" length="8"/>
+                        </id>
+                        <basic name="articulo">
+                                <column name="ARTICULO" nullable="false" length="8"/>
+                        </basic>
+                        <basic name="claGrup">
+                                <column name="CLA_GRUP" nullable="false" length="5"/>
+                        </basic>
+                        <basic name="desArti">
+                                <column name="DES_ARTI" nullable="false" length="45"/>
+                        </basic>
+                        <basic name="numPart">
+                                <column name="NUM_PART" nullable="false" length="15"/>
+                        </basic>
+                        <basic name="barCode">
+                                <column name="BAR_CODE" nullable="false" length="15"/>
+                        </basic>
+                        <basic name="clase">
+                                <column name="CLASE" nullable="false" length="1"/>
+                        </basic>
+                        <basic name="subclase">
+                                <column name="SUBCLASE" nullable="false" length="2"/>
+                        </basic>
+                        <basic name="depto">
+                                <column name="DEPTO" nullable="false" length="1"/>
+                        </basic>
+                        <basic name="barras">
+                                <column name="BARRAS" nullable="false" length="15"/>
+                        </basic>
+                        <basic name="preMayo">
+                                <column name="PRE_MAYO" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="preEspe">
+                                <column name="PRE_ESPE" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="prePubl">
+                                <column name="PRE_PUBL" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="fecActu">
+                                <column name="FEC_ACTU" nullable="false" precision="10"/>
+                        </basic>
+                        <basic name="carMayo">
+                                <column name="CAR_MAYO" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="carEspe">
+                                <column name="CAR_ESPE" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="carPubl">
+                                <column name="CAR_PUBL" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="cosDoll">
+                                <column name="COS_DOLL" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="tipCamb">
+                                <column name="TIP_CAMB" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="exiMatr">
+                                <column name="EXI_MATR" nullable="false" precision="10"/>
+                        </basic>
+                        <basic name="exiSucu">
+                                <column name="EXI_SUCU" nullable="false" precision="10"/>
+                        </basic>
+                        <basic name="exiActu">
+                                <column name="EXI_ACTU" nullable="false" precision="10"/>
+                        </basic>
+                        <basic name="exiSuc2">
+                                <column name="EXI_SUC2" nullable="false" precision="10"/>
+                        </basic>
+                        <basic name="cosFact">
+                                <column name="COS_FACT" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="cosNeto">
+                                <column name="COS_NETO" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="desGrup">
+                                <column name="DES_GRUP" nullable="false" length="40"/>
+                        </basic>
+                        <basic name="claProv">
+                                <column name="CLA_PROV" nullable="false" length="5"/>
+                        </basic>
+                        <basic name="uniMedi">
+                                <column name="UNI_MEDI" nullable="false" length="1"/>
+                        </basic>
+                        <basic name="cosProm">
+                                <column name="COS_PROM" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="priDesc">
+                                <column name="PRI_DESC" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="segDesc">
+                                <column name="SEG_DESC" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="terDesc">
+                                <column name="TER_DESC" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="carFlet">
+                                <column name="CAR_FLET" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="numPiez">
+                                <column name="NUM_PIEZ" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="exiMini">
+                                <column name="EXI_MINI" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="exiMaxi">
+                                <column name="EXI_MAXI" nullable="false" precision="22"/>
+                        </basic>
+                        <basic name="exiEfra">
+                                <column name="EXI_EFRA" nullable="false" precision="10"/>
+                        </basic>
+                        <basic name="exiPaco">
+                                <column name="EXI_PACO" nullable="false" precision="10"/>
+                        </basic>
+                        <basic name="exiInic">
+                                <column name="EXI_INIC" nullable="false" precision="10"/>
+                        </basic>
+                        <basic name="conteo">
+                                <column name="CONTEO" nullable="false" precision="10"/>
+                        </basic>
+                </attributes>
+        </entity>
+</entity-mappings>
