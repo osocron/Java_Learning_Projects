@@ -1,3 +1,3 @@
-# Java_Learning_Projects
+# Java Learning Projects
 
 This repo contains proyects I've used to learn Java.
