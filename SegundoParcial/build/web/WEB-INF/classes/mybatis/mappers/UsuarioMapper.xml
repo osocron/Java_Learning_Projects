@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="Usuario">
+    <select id="login" resultType="pojos.Usuario" parameterType="pojos.Usuario">
+        SELECT
+        usuario.idusuario,
+        usuario.nombre,
+        usuario.email,
+        usuario.password
+        FROM usuario
+        WHERE usuario.email = #{email}
+        and usuario.password = #{password}
+    </select>
+
+    <insert id="registrarUsuario" parameterType="pojos.Usuario">
+        INSERT INTO usuario (nombre, email, password)
+        VALUES (#{nombre}, #{email}, #{password})
+    </insert>
+</mapper>
